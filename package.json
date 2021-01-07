@@ -8,7 +8,7 @@
     "start": "node -r dotenv/config src/index.js"
   },
   "keywords": [],
-  "author": "Aziz Ali",
+  "author": "Aziz Ali<aziz.ali88@gmail.com>",
   "license": "ISC",
   "proxy": "http://localhost:3080",
   "dependencies": {
