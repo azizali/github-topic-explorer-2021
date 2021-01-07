@@ -7,7 +7,7 @@ export function App (){
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/topics/:topicTerm" component={Topic} />
+        <Route path="/topics/:topicTerm" exact strict component={Topic} />
         <Route path="/">
           <Home topicTerm="react" />
         </Route>
