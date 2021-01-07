@@ -1,0 +1,32 @@
+{
+  "name": "github-topic-explorer-2021",
+  "version": "1.0.0",
+  "description": "## Assignment:",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/frontend/_main/index.html",
+    "start:dev": "node -r dotenv/config src/frontend/index.js",
+    "start:devmon": "nodemon src/frontend/index.js"
+  },
+  "keywords": [],
+  "author": "Aziz Ali",
+  "license": "ISC",
+  "proxy": "http://localhost:3080",
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.4.0",
+    "http-proxy-middleware": "^1.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "parcel": "^1.12.4"
+  }
+}
